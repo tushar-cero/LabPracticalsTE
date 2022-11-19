@@ -39,4 +39,15 @@ SELECT  emp_Name, emp_Sal
 	FROM Emp
     WHERE emp_Sal BETWEEN 10000 AND 30000;
     
-    
+-- 4. List total no of employee.
+
+SELECT COUNT(emp_Name) AS Total_Employees FROM Emp;
+
+-- 5. List average sal of each deptID.
+
+SELECT AVG(emp_Sal) AS Total_Salary FROM Emp;
+
+-- 6. List employee details in ascending order of salary.
+
+SELECT * FROM Emp 
+	ORDER BY emp_Sal ;
