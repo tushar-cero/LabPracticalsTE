@@ -27,3 +27,23 @@ SELECT Customers.customer_id, first_name, order_id, amount
     INNER JOIN Orders 
     ON Customers.customer_id = Orders.customer_id; 
 
+-- RIGHT JOIN / RIGHT OUTER JOIN
+
+SELECT Customers.customer_id, order_id, amount, first_name 
+	FROM Customers 
+    RIGHT JOIN Orders 
+    ON Customers.customer_id = Orders.customer_id;  
+
+-- LEFT JOIN / LEFT OUTER JOIN
+
+SELECT Customers.customer_id, order_id, amount, first_name 
+	FROM Customers 
+    LEFT JOIN Orders 
+    ON Customers.customer_id = Orders.customer_id;  
+
+-- OUTER JOIN / FULL OUTER JOIN
+
+SELECT Customers.customer_id, order_id, amount, first_name 
+	FROM Customers 
+    OUTER JOIN Orders 
+    ON Customers.customer_id = Orders.customer_id;  
