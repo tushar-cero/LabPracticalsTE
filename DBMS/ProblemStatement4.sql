@@ -32,3 +32,11 @@ INSERT INTO Dept VALUES (50, 'PM');
                          
 SELECT emp_Name FROM Emp
 	WHERE emp_Dept_Id = 30 OR emp_Dept_Id =40 OR emp_Dept_Id =10; 
+
+-- 3. List the employee details whose salary is between 10000 to 30000.
+
+SELECT  emp_Name, emp_Sal
+	FROM Emp
+    WHERE emp_Sal BETWEEN 10000 AND 30000;
+    
+    
