@@ -27,3 +27,10 @@ SELECT Customers.customer_id, first_name, order_id, amount
     INNER JOIN Orders 
     ON Customers.customer_id = Orders.customer_id; 
 
+-- LEFT JOIN / LEFT OUTER JOIN
+
+SELECT Customers.customer_id, order_id, amount, first_name 
+	FROM Customers 
+    INNER JOIN Orders 
+    ON Customers.customer_id = Orders.customer_id;  
+    
