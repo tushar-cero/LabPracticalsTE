@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+    <employee id="001">
+        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+        <phone>555-1234</phone>
+        <department>Marketing</department>
+        <salary>50000</salary>
+    </employee>
+    <employee id="002">
+        <name>Jane Smith</name>
+        <email>jane.smith@example.com</email>
+        <phone>555-5678</phone>
+        <department>Accounting</department>
+        <salary>60000</salary>
+    </employee>
+    <employee id="003">
+        <name>Bob Johnson</name>
+        <email>bob.johnson@example.com</email>
+        <phone>555-9876</phone>
+        <department>IT</department>
+        <salary>70000</salary>
+    </employee>
+</employees>
